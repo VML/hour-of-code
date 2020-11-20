@@ -25,6 +25,19 @@ class HomeIndex extends React.Component {
         <Banner />
 
         <div id="main">
+          <section id="two">
+              <div className="inner">
+               <header className="major">
+                 <h2>Welcome!</h2>
+                </header>
+                <p>
+                This year, during Computer Science Education Week (December 7-13), we will be hosting a virtual Hour of Code ™  
+                event for children in grades 6-12th grade. Our goal is to inspire curious minds to take the first steps in 
+                discovering how computer science impacts the world around us. We want to encourage and inspire diversity in 
+                technology by welcoming diverse people and experiences, empowering attendees, and promoting accessibility to learning resources that will aid in continued learning and discovery.
+                </p>
+              </div>
+            </section>
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <Link
@@ -98,33 +111,6 @@ class HomeIndex extends React.Component {
                 </header>
               </Link>
             </article>
-          </section>
-          <section id="two">
-            <div className="inner">
-              <header className="major">
-                <h2>Massa libero</h2>
-              </header>
-              <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-                Pellentesque condimentum sem. In efficitur ligula tate urna.
-                Maecenas laoreet massa vel lacinia pellentesque lorem ipsum
-                dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et
-                sagittis libero. Mauris aliquet magna magna sed nunc rhoncus
-                amet pharetra et feugiat tempus.
-              </p>
-              <ul className="actions">
-                <li>
-                  <Link
-                    aria-label="Link to Landing Page"
-                    to="/landing"
-                    className="button next"
-                  >
-                    Get Started
-                  </Link>
-                </li>
-              </ul>
-            </div>
           </section>
         </div>
       </Layout>
