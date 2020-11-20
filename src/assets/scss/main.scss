@@ -3,7 +3,42 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 @import '../css/font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+//@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+font-face {
+  font-family: 'YRThree';
+  src: url('../fonts/YRThreeMedium-Regular.woff2') format('woff2'),
+  url('../fonts/YRThreeMedium-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url('../fonts/YRThreeBold-Regular.woff2') format('woff2'),
+  url('../fonts/YRThreeBold-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url('../fonts/YRThreeBlack-Regular.woff2') format('woff2'),
+  url('../fonts/YRThreeBlack-Regular.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url('../fonts/YRThreeLight-Regular.woff2') format('woff2'),
+  url('../fonts/YRThreeLight-Regular.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 
 @import 'css-grid';
 
