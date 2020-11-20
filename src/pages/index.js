@@ -15,7 +15,7 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Gatsby Starter - Forty"
+          title="VMLY&amp;R Presents: Hour of Code"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
@@ -28,13 +28,16 @@ class HomeIndex extends React.Component {
           <section id="two">
               <div className="inner">
                <header className="major">
-                 <h2>Welcome!</h2>
+                 <h2>Welcome Future Coders!</h2>
                 </header>
                 <p>
-                This year, during Computer Science Education Week (December 7-13), we will be hosting a virtual Hour of Code ™  
-                event for children in grades 6-12th grade. Our goal is to inspire curious minds to take the first steps in 
-                discovering how computer science impacts the world around us. We want to encourage and inspire diversity in 
-                technology by welcoming diverse people and experiences, empowering attendees, and promoting accessibility to learning resources that will aid in continued learning and discovery.
+                  This year, during Computer Science Education Week (December 7-13), we will be hosting a virtual <a href="https://hourofcode.com/us">Hour of Code</a>™  
+                  event for children in grades 6-12th grade. 
+                </p>
+                <p>
+                  Our goal is to inspire curious minds to take the first steps in 
+                  discovering how computer science impacts the world around us. We want to encourage and inspire diversity in 
+                  technology by welcoming diverse people and experiences, empowering attendees, and promoting accessibility to learning resources that will aid in continued learning and discovery.
                 </p>
               </div>
             </section>
@@ -58,8 +61,13 @@ class HomeIndex extends React.Component {
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Tempus</h3>
-                  <p>feugiat amet tempus</p>
+                  <h3>Two sessions available</h3>
+                    <p>
+                      Friday, December 11th <b>6:30pm to 8:30pm</b>
+                    </p>
+                    <p>
+                      Saturday, December 12th <b>10am to 12pm</b>
+                    </p>
                 </header>
               </Link>
             </article>
