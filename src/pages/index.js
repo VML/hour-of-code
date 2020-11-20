@@ -25,7 +25,7 @@ class HomeIndex extends React.Component {
         <Banner />
 
         <div id="main">
-          <section id="two">
+          <section id="one">
               <div className="inner">
                <header className="major">
                  <h2>Welcome Future Coders!</h2>
@@ -41,25 +41,14 @@ class HomeIndex extends React.Component {
                 </p>
               </div>
             </section>
-          <section id="one" className="tiles">
+          <section id="two" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
-              <Link
-                aria-label="Link to Landing Page"
-                to="/landing"
-                className="link primary"
-              >
-                <header className="major">
-                  <h3>Aliquam</h3>
-                  <p>Ipsum dolor sit amet</p>
-                </header>
-              </Link>
+              <header className="major">
+                <h3>Aliquam</h3>
+                <p>Ipsum dolor sit amet</p>
+              </header>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
-              <Link
-                aria-label="Link to Landing Page"
-                to="/landing"
-                className="link primary"
-              >
                 <header className="major">
                   <h3>Two sessions available</h3>
                     <p>
@@ -69,7 +58,6 @@ class HomeIndex extends React.Component {
                       Saturday, December 12th <b>10am to 12pm</b>
                     </p>
                 </header>
-              </Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <Link
