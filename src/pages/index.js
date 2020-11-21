@@ -28,7 +28,7 @@ class HomeIndex extends React.Component {
           <section id="one">
               <div className="inner">
                <header className="major">
-                 <h2>Welcome Future Coders!</h2>
+                 <h2>Welcome Coders!</h2>
                 </header>
                 <p>
                   This year, during Computer Science Education Week (December 7-13), we will be hosting a virtual <a href="https://hourofcode.com/us">Hour of Code</a>™  
@@ -52,10 +52,10 @@ class HomeIndex extends React.Component {
                 <header className="major">
                   <h3>Two sessions available</h3>
                     <p>
-                      Friday, December 11th <b>6:30pm to 8:30pm</b>
+                      Friday, December 11th: <b>6:30pm to 8:30pm</b>
                     </p>
                     <p>
-                      Saturday, December 12th <b>10am to 12pm</b>
+                      Saturday, December 12th: <b>10am to 12pm</b>
                     </p>
                 </header>
             </article>
@@ -90,8 +90,9 @@ class HomeIndex extends React.Component {
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Consequat</h3>
-                  <p>Ipsum dolor sit amet</p>
+                  <h3>Questions?</h3>
+                  <p>Contact Liz Wait - </p>
+                  <p><a href="mailto:elizabeth.wait@vmlyr.com?Subject=VMLYR%Hour%of%Code%Inquiry" target="_blank">elizabeth.wait@vmlyr.com</a></p>
                 </header>
               </Link>
             </article>

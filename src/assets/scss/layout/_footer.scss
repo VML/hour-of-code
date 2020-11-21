@@ -28,6 +28,30 @@
     }
   }
 
+  #vmlyrsocials {
+    padding: 5rem;
+    padding-left: 18rem;
+
+    a {
+      padding: 1rem;
+    }
+  }
+
+  #codesocials {
+    padding: 5rem;
+
+    a {
+      padding: 1rem;
+    }
+  }
+
+  #footernote {
+    font-size: 12px;
+    text-align: center;
+  }
+
+
+
   @include breakpoint(xsmall) {
     .copyright {
       li {

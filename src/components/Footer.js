@@ -2,40 +2,47 @@ import React from 'react'
 
 const Footer = props => (
   <footer id="footer">
-    <div className="inner">
-      <ul className="icons">
-        <li>
-          <a href="#" aria-label="Twitter" className="icon alt fa-twitter">
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="Facebook" className="icon alt fa-facebook">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="Instagram" className="icon alt fa-instagram">
-            <span className="label">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="GitHub" className="icon alt fa-github">
-            <span className="label">GitHub</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="LinkedIn" className="icon alt fa-linkedin">
-            <span className="label">LinkedIn</span>
-          </a>
-        </li>
-      </ul>
-      <ul className="copyright">
-        <li>&copy; Untitled</li>
-        <li>
-          Design: <a href="https://html5up.net">HTML5 UP</a>
-        </li>
-      </ul>
+    <div className="grid-wrapper">
+      <div className="col-6">
+        <div id="vmlyrsocials">
+          <p>Visit VMLYR on Social Media</p>
+            <a href="https://twitter.com/vmlyr" target="_blank" aria-label="Twitter" className="icon alt fa-twitter">
+              <span className="label">Twitter</span>
+            </a>
+            <a href="https://www.facebook.com/VMLYR/" target="_blank" aria-label="Facebook" className="icon alt fa-facebook">
+              <span className="label">Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/vmlyr/" target="_blank" aria-label="Instagram" className="icon alt fa-instagram">
+              <span className="label">Instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/company/vmlyr" target="_blank" aria-label="LinkedIn" className="icon alt fa-linkedin">
+              <span className="label">LinkedIn</span>
+            </a>
+          </div>
+      </div>
+      <div className="col-6">
+          <div id="codesocials">
+          <p>Visit Code.org on Social Media </p>
+            <a href="https://twitter.com/codeorg" target="_blank" aria-label="Twitter" className="icon alt fa-twitter">
+              <span className="label">Twitter</span>
+            </a>
+            <a href="https://www.facebook.com/Code.org" target="_blank" aria-label="Facebook" className="icon alt fa-facebook">
+              <span className="label">Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/codeorg/" target="_blank" aria-label="Instagram" className="icon alt fa-instagram">
+              <span className="label">Instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/company/code-org/" target="_blank" aria-label="LinkedIn" className="icon alt fa-linkedin">
+              <span className="label">LinkedIn</span>
+            </a>
+          </div> 
+      </div>
+    </div>
+    <div id="footernote">
+      <p>
+      “The 'Hour of Code™' is a nationwide initiative by <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> and <a href="https://www.code.org" target="_blank">Code.org</a> to introduce millions of 
+      students to one hour of computer science and computer programming.”
+      </p>
     </div>
   </footer>
 )
