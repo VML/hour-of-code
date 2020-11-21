@@ -84,17 +84,11 @@ class HomeIndex extends React.Component {
               </Link>
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
-              <Link
-                aria-label="Link to Landing Page"
-                to="/landing"
-                className="link primary"
-              >
                 <header className="major">
                   <h3>Questions?</h3>
                   <p>Contact Liz Wait - </p>
                   <p><a href="mailto:elizabeth.wait@vmlyr.com?Subject=VMLYR%Hour%of%Code%Inquiry" target="_blank">elizabeth.wait@vmlyr.com</a></p>
                 </header>
-              </Link>
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <Link
