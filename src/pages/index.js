@@ -66,21 +66,25 @@ class HomeIndex extends React.Component {
           <section id="two" className="tiles">
             <article style={{backgroundImage: `url(${pic01})`}}>
               <header className="major">
-                <h3>Aliquam</h3>
-                <p>Ipsum dolor sit amet</p>
+              <h3>Two sessions available</h3>
+                <ul>
+                  <li>Friday, December 11th
+                      <b> 6:30pm to 8:30pm</b>
+                  </li>
+                  <li>Saturday, December 12th
+                  <b> 10am to 12pm</b></li>
+                </ul>
               </header>
             </article>
             <article style={{backgroundImage: `url(${pic02})`}}>
               <header className="major">
-                <h3>Two sessions available</h3>
-                <p>
-                  Friday, December 11th:
-                  <b>6:30pm to 8:30pm</b>
-                </p>
-                <p>
-                  Saturday, December 12th:
-                  <b>10am to 12pm</b>
-                </p>
+                <h3>Schedule</h3>
+                <ul>
+                  <li>Opening Presentation by VMLY&amp;R</li>
+                  <li>Break into groups: <b>1 hour coding session!</b></li>
+                  <li>Short break</li>
+                  <li>Closing and “Ask a dev session” Q&amp;A</li>
+                </ul>
               </header>
             </article>
             <article style={{backgroundImage: `url(${pic03})`}}>
