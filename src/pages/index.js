@@ -5,8 +5,6 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 import Banner from '../components/Banner'
 import Layout from '../components/layout'
 
@@ -30,9 +28,9 @@ class HomeIndex extends React.Component {
                 <h2>Welcome Coders!</h2>
               </header>
               <p>
-                This year, during Computer Science Education Week (December 7-13), we will be hosting a
-                virtual<a href="https://hourofcode.com/us">Hour of Code</a>™
-                event for children in grades 6-12th grade.
+                This year, during <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> (December 7-13), we will be hosting a
+                virtual<a href="https://hourofcode.com/us"> Hour of Code</a>™
+                event for students in grades 6-12th.
               </p>
               <p>
                 Our goal is to inspire curious minds to take the first steps in
@@ -57,7 +55,7 @@ class HomeIndex extends React.Component {
                   <ul className="actions">
                     <li>
                       <a href="https://forms.gle/86Dh3ZxkMiQa4uwGA" target="_blank" name="Apply now" className="button next scrolly">
-                        Apply now!
+                        Sign up now!
                       </a>
                     </li>
                   </ul>
@@ -98,18 +96,6 @@ class HomeIndex extends React.Component {
               </Link>
             </article>
             <article style={{backgroundImage: `url(${pic04})`}}>
-              <Link
-                aria-label="Link to Landing Page"
-                to="/landing"
-                className="link primary"
-              >
-                <header className="major">
-                  <h3>Ipsum</h3>
-                  <p>Nisl sed aliquam</p>
-                </header>
-              </Link>
-            </article>
-            <article style={{backgroundImage: `url(${pic05})`}}>
               <header className="major">
                 <h3>Questions?</h3>
                 <p>Contact Liz Wait -</p>
@@ -120,18 +106,35 @@ class HomeIndex extends React.Component {
                 </p>
               </header>
             </article>
-            <article style={{backgroundImage: `url(${pic06})`}}>
-              <Link
-                aria-label="Link to Landing Page"
-                to="/landing"
-                className="link primary"
-              >
-                <header className="major">
-                  <h3>Etiam</h3>
-                  <p>Feugiat amet tempus</p>
-                </header>
-              </Link>
-            </article>
+          </section>
+          <section id="three">
+            <div className="inner">
+              <header className="major">
+                <h2 id="faqheader">FAQs</h2>
+              </header>
+              <div>
+                <h4>
+                  Who will be mentoring this event?
+                </h4>
+                <p>
+                  VMLY&amp;R employess will be our awesome mentors! Huge thanks to them for their help!
+                </p>
+                <h4>
+                  Does my child need coding experience to participate?
+                </h4>
+                <p>
+                  No coding experience is required. We encourage any child who is curious about coding to attend! 
+                  If your child does have coding experience, that is totally fine too. 
+                </p>
+                <h4>
+                  Is the event only one hour long?
+                </h4>
+                <p>
+                  Please expect this event to last an estimated two hours. We will have a short opening presentation, 
+                  and will also be followed by a closing presentation. Please see our schedule for more details.
+                </p>
+              </div>
+            </div>
           </section>
         </div>
       </Layout>
