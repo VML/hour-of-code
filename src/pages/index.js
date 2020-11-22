@@ -47,7 +47,7 @@ class HomeIndex extends React.Component {
                   <iframe
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/SrnvvWDm73k"
+                    src="https://www.youtube.com/embed/qYZF6oIZtfc"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
@@ -56,7 +56,7 @@ class HomeIndex extends React.Component {
                 <div className="cta">
                   <ul className="actions">
                     <li>
-                      <a href="#" name="Apply now" className="button next scrolly">
+                      <a href="https://forms.gle/86Dh3ZxkMiQa4uwGA" target="_blank" name="Apply now" className="button next scrolly">
                         Apply now!
                       </a>
                     </li>
