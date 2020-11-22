@@ -2,39 +2,43 @@ import React from 'react'
 
 const Footer = props => (
   <footer id="footer">
-    <div className="grid-wrapper">
-      <div className="col-6">
+    <div>
+      <div id="socials">
         <div id="vmlyrsocials">
           <p>Visit VMLYR on Social Media</p>
-            <a href="https://twitter.com/vmlyr" target="_blank" aria-label="Twitter" className="icon alt fa-twitter">
-              <span className="label">Twitter</span>
-            </a>
-            <a href="https://www.facebook.com/VMLYR/" target="_blank" aria-label="Facebook" className="icon alt fa-facebook">
-              <span className="label">Facebook</span>
-            </a>
-            <a href="https://www.instagram.com/vmlyr/" target="_blank" aria-label="Instagram" className="icon alt fa-instagram">
-              <span className="label">Instagram</span>
-            </a>
-            <a href="https://www.linkedin.com/company/vmlyr" target="_blank" aria-label="LinkedIn" className="icon alt fa-linkedin">
-              <span className="label">LinkedIn</span>
-            </a>
+            <div id="icons">
+              <a href="https://twitter.com/vmlyr" target="_blank" aria-label="Twitter" className="icon alt fa-twitter">
+                <span className="label">Twitter</span>
+              </a>
+              <a href="https://www.facebook.com/VMLYR/" target="_blank" aria-label="Facebook" className="icon alt fa-facebook">
+                <span className="label">Facebook</span>
+              </a>
+              <a href="https://www.instagram.com/vmlyr/" target="_blank" aria-label="Instagram" className="icon alt fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+              <a href="https://www.linkedin.com/company/vmlyr" target="_blank" aria-label="LinkedIn" className="icon alt fa-linkedin">
+                <span className="label">LinkedIn</span>
+              </a>
+            </div>
           </div>
       </div>
-      <div className="col-6">
+      <div>
           <div id="codesocials">
           <p>Visit Code.org on Social Media </p>
-            <a href="https://twitter.com/codeorg" target="_blank" aria-label="Twitter" className="icon alt fa-twitter">
-              <span className="label">Twitter</span>
-            </a>
-            <a href="https://www.facebook.com/Code.org" target="_blank" aria-label="Facebook" className="icon alt fa-facebook">
-              <span className="label">Facebook</span>
-            </a>
-            <a href="https://www.instagram.com/codeorg/" target="_blank" aria-label="Instagram" className="icon alt fa-instagram">
-              <span className="label">Instagram</span>
-            </a>
-            <a href="https://www.linkedin.com/company/code-org/" target="_blank" aria-label="LinkedIn" className="icon alt fa-linkedin">
-              <span className="label">LinkedIn</span>
-            </a>
+            <div id="icons">
+              <a href="https://twitter.com/codeorg" target="_blank" aria-label="Twitter" className="icon alt fa-twitter">
+                <span className="label">Twitter</span>
+              </a>
+              <a href="https://www.facebook.com/Code.org" target="_blank" aria-label="Facebook" className="icon alt fa-facebook">
+                <span className="label">Facebook</span>
+              </a>
+              <a href="https://www.instagram.com/codeorg/" target="_blank" aria-label="Instagram" className="icon alt fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+              <a href="https://www.linkedin.com/company/code-org/" target="_blank" aria-label="LinkedIn" className="icon alt fa-linkedin">
+                <span className="label">LinkedIn</span>
+              </a>
+            </div> 
           </div> 
       </div>
     </div>

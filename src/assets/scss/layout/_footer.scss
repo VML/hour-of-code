@@ -7,60 +7,34 @@
 /* Footer */
 
 #footer {
-  .copyright {
-    font-size: 0.8em;
-    list-style: none;
-    padding-left: 0;
-
-    li {
-      border-left: solid 1px _palette(border);
-      color: #ffffff;
-      display: inline-block;
-      line-height: 1;
-      margin-left: 1em;
-      padding-left: 1em;
-
-      &:first-child {
-        border-left: 0;
-        margin-left: 0;
-        padding-left: 0;
-      }
-    }
-  }
-
+    
   #vmlyrsocials {
+    text-align: center;
     padding: 5rem;
-    padding-left: 18rem;
-
-    a {
-      padding: 1rem;
-    }
+    display: flex;
+    flex-direction: column;
+    float: left;
   }
 
   #codesocials {
+    text-align: center;
     padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
 
-    a {
-      padding: 1rem;
-    }
+  #icons {
+    padding: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
   }
 
   #footernote {
     font-size: 12px;
     text-align: center;
-  }
-
-
-
-  @include breakpoint(xsmall) {
-    .copyright {
-      li {
-        display: block;
-        border-left: 0;
-        margin-left: 0;
-        padding-left: 0;
-        line-height: inherit;
-      }
-    }
-  }
+    padding: 3rem;
+    padding-top: 20rem;
+  }      
 }
