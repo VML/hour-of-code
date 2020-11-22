@@ -23,4 +23,17 @@
 			background-color: transparent;
 			border-bottom: solid 1px _palette(border);
 		}
+
+		.video {
+			margin-bottom: 2em;
+
+			iframe {
+				width: 100%;
+				height: calc(100vw/2.5);
+			}
+		}
+
+		.cta {
+			text-align: center;
+		}
 	}
