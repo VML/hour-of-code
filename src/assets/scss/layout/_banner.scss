@@ -8,7 +8,6 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/banner.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(2em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -17,8 +16,8 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
-		margin-bottom: -3.25em;
+		//height: 60vh;
+		//margin-bottom: -3.25em;
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
@@ -58,21 +57,39 @@
 			position: relative;
 			z-index: 2;
 
+			.half {
+				width: 30%;
+			}
+
 			.quarter {
-				width: 25%;
+				width: 20%;
 			}
 
 			header {
 				width: auto;
 
+
 				.vmlyrLogo {
 					display: flex;
 					align-items: center;
+					justify-content: center;
 					margin-bottom: 2em;
+					// padding-top: 8rem;
+				}
+				
+				.presents {
+					display: flex;
+					align-content: space-between;
+					margin: 0;
+					margin-left: 10px;
+				}
 
-					h3 {
-						margin: 0 0.6em 0;
-					}
+				.hourOfCodeLogo {
+					display:flex;
+					align-items: center;
+					justify-content: center;
+					//margin-bottom: 3em;
+			
 				}
 			}
 		}
@@ -93,6 +110,25 @@
 		.body.is-loading & {
 			&:after {
 				opacity: 1.0;
+			}
+
+			.inner {
+
+				.vmlyrLogo {
+					margin-top: -3rem;
+				}
+
+				.hourOfCodeLogo {
+					padding-bottom: 1.5rem;
+				}
+
+				.half {
+					width: 60%;
+				}
+	
+				.quarter {
+					width: 40%;
+				}
 			}
 
 			> .inner {
@@ -118,6 +154,25 @@
 				font-size: 2em;
 			}
 
+			.inner {
+				
+				.vmlyrLogo {
+					margin-top: -3rem;
+				}
+
+				.hourOfCodeLogo {
+					padding-bottom: 1.5rem;
+				}
+
+				.half {
+					width: 60%;
+				}
+	
+				.quarter {
+					width: 40%;
+				}
+			}
+
 			> .inner {
 				.content {
 					display: block;
@@ -138,8 +193,28 @@
 
 		@include breakpoint(xsmall) {
 			@include padding(4em, 0, (2em, 0, 0, 0));
+			
+			.inner {
+
+				.vmlyrLogo {
+					margin-top: -3rem;
+				}
+
+				.hourOfCodeLogo {
+					padding-bottom: 1.5rem;
+				}
+
+				.half {
+					width: 60%;
+				}
+	
+				.quarter {
+					width: 40%;
+				}
+			}
 
 			> .inner {
+
 				.content {
 					p {
 						br {
