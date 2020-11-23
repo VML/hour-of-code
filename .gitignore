@@ -7,5 +7,7 @@ yarn.lock
 
 # Build directory
 /public
+!/public/favicon-32x32.png
+!/public/icons/*
 .DS_Store
 .idea/
