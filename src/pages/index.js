@@ -29,7 +29,7 @@ class HomeIndex extends React.Component {
               </header>
               <p>
                 This year, during <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> (December 7-13), we will be hosting a
-                virtual<a href="https://hourofcode.com/us"> Hour of Code</a>™
+                virtual <a href="https://hourofcode.com/us">Hour of Code</a>™
                 event for students in grades 6-12th.
               </p>
               <p>
@@ -78,7 +78,7 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{backgroundImage: `url(${pic02})`}}>
               <header className="major">
-                <h3>Schedule</h3>
+                <h3 id="schedule">Schedule</h3>
                 <ul>
                   <li>Opening Presentation by VMLY&amp;R</li>
                   <li>Break into groups: <b>1 hour coding session!</b></li>
@@ -88,16 +88,11 @@ class HomeIndex extends React.Component {
               </header>
             </article>
             <article style={{backgroundImage: `url(${pic03})`}}>
-              <Link
-                aria-label="Link to Landing Page"
-                to="/landing"
-                className="link primary"
-              >
                 <header className="major">
-                  <h3>Magna</h3>
-                  <p>Lorem etiam nullam</p>
+                  <h3>Activity List + Connecting to Event</h3>
+                  <p>Coming soon!</p>
+                  <p>We will post this the day before the event.</p>
                 </header>
-              </Link>
             </article>
             <article style={{backgroundImage: `url(${pic04})`}}>
               <header className="major">
@@ -135,7 +130,7 @@ class HomeIndex extends React.Component {
                 </h4>
                 <p>
                   Please expect this event to last an estimated two hours. We will have a short opening presentation, 
-                  and will also be followed by a closing presentation. Please see our schedule for more details.
+                  and will also be followed by a closing presentation. Please see our <a href="#schedule">schedule</a> for more details.
                 </p>
               </div>
             </div>
