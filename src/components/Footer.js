@@ -5,7 +5,7 @@ const Footer = props => (
     <div>
       <div id="socials">
         <div id="vmlyrsocials">
-          <p>Visit VMLYR on Social Media</p>
+          <p>Visit <a href="https://vmlyr.com" target="_blank">VMLY&amp;R</a> on Social Media</p>
             <div id="icons">
               <a href="https://twitter.com/vmlyr" target="_blank" aria-label="Twitter" className="icon alt fa-twitter">
                 <span className="label">Twitter</span>
@@ -24,7 +24,7 @@ const Footer = props => (
       </div>
       <div>
           <div id="codesocials">
-          <p>Visit Code.org on Social Media </p>
+          <p>Visit <a href="https://code.org" target="_blank">Code.org</a> on Social Media </p>
             <div id="icons">
               <a href="https://twitter.com/codeorg" target="_blank" aria-label="Twitter" className="icon alt fa-twitter">
                 <span className="label">Twitter</span>
@@ -44,8 +44,8 @@ const Footer = props => (
     </div>
     <div id="footernote">
       <p>
-      “The 'Hour of Code™' is a nationwide initiative by <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> 
-      and <a href="https://www.code.org" target="_blank">Code.org</a> to introduce millions of students to one hour of computer science 
+      “The 'Hour of Code™' is a nationwide initiative by <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> and <a href="https://www.code.org" target="_blank">Code.org</a> to 
+      introduce millions of students to one hour of computer science 
       and computer programming.”
       </p>
     </div>
