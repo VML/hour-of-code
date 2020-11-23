@@ -28,14 +28,12 @@ class HomeIndex extends React.Component {
                 <h2>Welcome Coders!</h2>
               </header>
               <p>
-                This year, during <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> (December 7-13), we will be hosting a
-                virtual <a href="https://hourofcode.com/us">Hour of Code</a>™
-                event for students in grades 6-12th.
+                This year, during <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> (December 7-13), <a href="https://vmlyr.com" target="_blank">VMLY&amp;R</a> will 
+                be hosting a virtual <a href="https://hourofcode.com/us" target="_blank">Hour of Code</a>™ event for students in grades 6-12th.
               </p>
               <p>
                 Our goal is to inspire curious minds to take the first steps in
-                discovering how computer science impacts the world around us. We want to encourage and
-                inspire diversity in
+                discovering how computer science impacts the world around us. We want to encourage andinspire diversity in
                 technology by welcoming diverse people and experiences, empowering attendees, and
                 promoting accessibility to learning resources that will aid in continued learning and
                 discovery.
@@ -129,8 +127,8 @@ class HomeIndex extends React.Component {
                   Is the event only one hour long?
                 </h4>
                 <p>
-                  Please expect this event to last an estimated two hours. We will have a short opening presentation, 
-                  and will also be followed by a closing presentation. Please see our <a href="#schedule">schedule</a> for more details.
+                  Please expect this event to last an estimated two hours. We will have a short opening and closing presentation. 
+                  Please see our <a href="#schedule">schedule</a> for more details.
                 </p>
               </div>
             </div>
