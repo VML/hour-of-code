@@ -28,8 +28,8 @@ class HomeIndex extends React.Component {
                 <h2>Welcome Coders!</h2>
               </header>
               <p>
-                This year, during <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> (December 7-13), <a href="https://vmlyr.com" target="_blank">VMLY&amp;R</a> will 
-                be hosting a virtual <a href="https://hourofcode.com/us" target="_blank">Hour of Code</a>™ event for students in grades 6-12th.
+                This year, during <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> (December 7-13, 2020), <a href="https://vmlyr.com" target="_blank">VMLY&amp;R</a> will 
+                be hosting a <a href="https://hourofcode.com/us" target="_blank">Code.org Hour of Code</a>™ event virtually for students in grades 6-12th.
               </p>
               <p>
                 Our goal is to inspire curious minds to take the first steps in
@@ -114,14 +114,14 @@ class HomeIndex extends React.Component {
                   Who will be mentoring this event?
                 </h4>
                 <p>
-                  VMLY&amp;R employess will be our awesome mentors! Huge thanks to them for their help!
+                  VMLY&amp;R employess will be our awesome mentors! Huge thanks to them for their help.
                 </p>
                 <h4>
                   Does my child need coding experience to participate?
                 </h4>
                 <p>
                   No coding experience is required. We encourage any child who is curious about coding to attend! 
-                  If your child does have coding experience, that is totally fine too. 
+                  Our mentors will be helping all skill levels. 
                 </p>
                 <h4>
                   Is the event only one hour long?
