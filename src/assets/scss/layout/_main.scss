@@ -26,6 +26,7 @@
 
 		.video {
 			margin-bottom: 2em;
+			margin-top: 3em;
 
 			iframe {
 				width: 100%;
@@ -35,5 +36,17 @@
 
 		.cta {
 			text-align: center;
+		}
+
+		#event-details {
+			background-color: #545e92;
+			padding: 2em;
+		}
+
+		#main {
+			padding-left: 5em;
+			padding-right: 5em;
+			padding-top: 2em;
+			padding-bottom: 2em;
 		}
 	}

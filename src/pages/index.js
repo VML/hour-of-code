@@ -25,7 +25,7 @@ class HomeIndex extends React.Component {
           <section id="one">
             <div className="inner">
               <header className="major">
-                <h2>Welcome Coders!</h2>
+                <h1>Welcome Coders!</h1>
               </header>
               <p>
                 This year, during <a href="https://csedweek.org/" target="_blank">Computer Science Education Week</a> (December 7-13, 2020), <a href="https://vmlyr.com" target="_blank">VMLY&amp;R</a> will 
@@ -33,11 +33,40 @@ class HomeIndex extends React.Component {
               </p>
               <p>
                 Our goal is to inspire curious minds to take the first steps in
-                discovering how computer science impacts the world around us. We want to encourage andinspire diversity in
+                discovering how computer science impacts the world around us. We want to encourage and inspire diversity in
                 technology by welcoming diverse people and experiences, empowering attendees, and
                 promoting accessibility to learning resources that will aid in continued learning and
                 discovery.
               </p>
+              <div id="event-details">
+                    <h1>Event Details</h1>
+                    <h2><u>Connection Info</u></h2>
+                    <p>Parents, please see most recent email titled, <b>"Hour of Code: Zoom Meeting Link"</b></p>
+                    <br></br>
+                    <h2><u>Activities</u></h2>
+                    <p>Please choose one of the below activities for your grade group. </p>
+                    <p><b>Grades 6-8</b></p>
+                    <ol>
+                      <li><a href=""
+                     target="_blank">Program in Python with Tracy the Turtle</a></li>
+                      <li><a href=""
+                     target="_blank">Lightbot</a></li>
+                    </ol>
+                    <p><b>Grades 9-12</b></p>
+                    <ol>
+                      <li><a href=""
+                     target="_blank">Star Wars: Building a Galaxy with Code</a></li>
+                      <li><a href=""
+                     target="_blank">C.A.T.S. Go For The Robot Olympics</a></li>
+                    </ol>
+                    <h2><u>Ask a Dev!</u></h2>
+                    <p>Do you have questions for the devs here at VMLY&amp;R?</p> 
+                    <p>Follow <b><a href="https://app.sli.do/event/13osacqe/live/questions"
+                     target="_blank">this link 
+                  </a></b> to post any and every question you can think of! 
+                      From day to day activities, how we became developers, continuing education, what our favorite 
+                      color is!</p>
+              </div>
               <div className="content">
                 <div className="video">
                   <iframe
@@ -48,15 +77,6 @@ class HomeIndex extends React.Component {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                   </iframe>
-                </div>
-                <div className="cta">
-                  <ul className="actions">
-                    <li>
-                      <a href="https://forms.gle/86Dh3ZxkMiQa4uwGA" target="_blank" name="Apply now" className="button next scrolly">
-                        Sign up now!
-                      </a>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -88,8 +108,7 @@ class HomeIndex extends React.Component {
             <article style={{backgroundImage: `url(${pic03})`}}>
                 <header className="major">
                   <h3>Activity List + Connecting to Event</h3>
-                  <p>Coming soon!</p>
-                  <p>We will post this the day before the event.</p>
+                  <p>Please see event details <a href="#event-details">here!</a></p>
                 </header>
             </article>
             <article style={{backgroundImage: `url(${pic04})`}}>
