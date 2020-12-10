@@ -47,10 +47,10 @@ class HomeIndex extends React.Component {
                     <p>Please choose one of the below activities for your grade group. </p>
                     <p><b>Grades 6-8</b></p>
                     <ol>
-                      <li><a href="https://hourofcode.com/codehsturtle"
-                     target="_blank">Program in Python with Tracy the Turtle</a></li>
-                      <li><a href="https://hourofcode.com/lightbot"
+                    <li><a href="https://hourofcode.com/lightbot"
                      target="_blank">Lightbot</a></li>
+                    <li><a href="https://hourofcode.com/olympics"
+                     target="_blank">C.A.T.S. Go For The Robot Olympics</a></li>
                     </ol>
                     <p><b>Grades 9-12</b></p>
                     <ol>
