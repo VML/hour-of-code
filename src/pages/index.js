@@ -38,15 +38,6 @@ class HomeIndex extends React.Component {
                 promoting accessibility to learning resources that will aid in continued learning and
                 discovery.
               </p>
-              <div className="cta">
-                  <ul className="actions">
-                    <li>
-                      <a href="https://forms.gle/86Dh3ZxkMiQa4uwGA" target="_blank" name="Apply now" className="button next scrolly">
-                        Apply now!
-                      </a>
-                    </li>
-                  </ul>
-                </div>
               <div id="event-details">
                     <h1>Event Details</h1>
                     <h2><u>Connection Info</u></h2>
